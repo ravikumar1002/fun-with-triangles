@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Area of a triangle</title>
+    <link rel="stylesheet" href="areaOfTriangles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <div>
+            <h2>Fun with triangles</h2>
+        </div>
+        <nav>
+            <p class="nav-item"><a href="index.html"> Is Triangle?</a></p>
+            <p class="nav-item"><a href="quiz.html"> Quiz</a></p>
+            <p class="nav-item"><a href="calculateHypotenuse.html">Hypotenuse</a></p>
+            <p id="active-tab"><a href="areaOfTriangles.html"> Area of Triangle</a></p>
+        </nav>
+    </header>
+    <div class="page-content">
+        <main>
+
+            <h1 class="topic-heading">Calculate Area of a triangle</h1>
+            <div class="content-area">
+                <div class="container" id="user-input">
+                    <div id="container-1">
+                        <div>
+                            <label for="input-1">Enter first side of a triangle </label>
+                        </div>
+
+                        <div>
+                            <label for="input-2">Enter second side of a triangle </label>
+                        </div>
+                        <div>
+                            <label for="input-3">Enter third side of a triangle</label>
+                        </div>
+                    </div>
+                    <div id="container-2">
+                        <div>
+                            <input type="number" id="input-1">
+                        </div>
+                        <div>
+                            <input type="number" id="input-2" min="1">
+                        </div>
+                        <div>
+                            <input type="number" id="input-3">
+                        </div>
+                    </div>
+                </div>
+                <div class="btn">
+                    <button id="calculate"> calculate</button>
+                </div>
+                <div class="result" id="result-msg">
+                    <h2 class="output-msg"></h2>
+                </div>
+            </div>
+        </main>
+    </div>
+
+
+
+
+    <div>
+        <footer>
+            <p><a href="https://github.com/ravikumar1002" class="fab fa-github icon-style" target="_blank"></a></p>
+            <p><a href="https://www.linkedin.com/in/ravikumar-1002" class="fab fa-linkedin icon-style" target="_blank"></a></p>
+            <p><a href="https://twitter.com/kumarravi1002" class="fab fa-twitter-square icon-style" target="_blank"></a></p>
+        </footer>
+    </div>
+    <script src="areaOfTriangles.js"></script>
+</body>
+
+</html>

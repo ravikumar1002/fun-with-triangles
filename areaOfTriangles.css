@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    text-decoration: none;
+    
+}
+
+body{
+    background-color: #e3e9ee61;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 2.5rem;
+    border-radius: 11px;
+background: #fcfcfc;
+box-shadow: 4px 2px 0px #f2f2f2;
+}
+
+#active-tab{
+    padding: 0.2rem 0.4rem;
+    border-bottom: 2px solid black;
+    
+ }
+ 
+ .nav-item{
+     padding: 0.2rem 0.4rem;
+ }
+ 
+ .nav-item:hover{
+     
+     border-bottom: 2px solid black;
+ }
+
+nav{
+    display: flex;
+    gap: 2.5rem;
+}
+
+nav > p{
+    align-self: center;
+}
+.topic-heading{
+    text-align: center;
+    padding: 1.5rem;
+    font-size: 3rem;
+}
+
+
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.content-area{
+    margin: auto;
+    padding: 2rem;
+    border-radius: 97px;
+    background: linear-gradient(315deg, #e3e3e3, #ffffff);
+    box-shadow: 4px 2px 0px #f2f2f2;
+    margin-bottom: 6rem;
+
+}
+
+.btn, .result , #user-input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+
+#container-1 >div > label{
+    font-size: 1.5rem;
+    margin: 2.07rem 0;
+    display: block;
+}
+
+#container-2 >div  input{
+    font-size: 1.3rem;
+    text-align: left;
+    margin: 1rem 0rem;
+    padding: 0 0.5rem;
+
+}
+
+button{
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin: auto;
+    border-radius: 13px;
+    background: #d7d7d7;  
+    border: 2px solid black;
+}
+
+#output-msg{
+    margin: auto;
+}
+
+#result-msg{
+    margin: auto;
+}
+
+footer{
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    background-color: black;
+    width: 95.7vw;
+    padding: 1rem;
+    margin-top: 2rem;
+    border-radius: 11px;
+    background: #fcfcfc;
+    box-shadow:  -5px -5px 9px #f2f2f2,
+                 5px 5px 9px #ffffff;
+    position:sticky;
+    bottom: 0;
+}
+
+.icon-style {
+    font-size: 35px;
+    color: black;
+  }
+  

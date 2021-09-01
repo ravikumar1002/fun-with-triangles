@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hypotenuse of a triangle</title>
+    <link rel="stylesheet" href="calculateHypotenuse.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <div>
+            <h2>Fun with triangles</h2>
+        </div>
+        <nav>
+            <p class="nav-item"><a href="index.html"> Is Triangle?</a></p>
+            <p class="nav-item"><a href="quiz.html"> Quiz</a></p>
+            <p id="active-tab"><a href="calculateHypotenuse.html">Hypotenuse</a></p>
+            <p class="nav-item"><a href="areaOfTriangles.html"> Area of Triangle</a></p>
+        </nav>
+    </header>
+    <h1 class="page-heading">Calculate Hypotenuse of a triangle</h1>
+    <div class="page-content">
+        <main class="contents-items">
+            <div class="input-values">
+                <div>
+                    <label for="base-value">Enter base value (a) =</label>
+                    <label for="height-value">Enter height value (b) = </label>
+
+                </div>
+                <div>
+                    <input type="number" id="base-value">
+                    <input type="number" id="height-value" required>
+                </div>
+            </div>
+
+            <button id="Calculate-hypotenuse-btn">Calculate hypotenuse </button>
+
+            <div class="formula-view">
+                <h1>Hypotenuse formula</h1>
+                <h3> √(base² + height²)</h3>
+            </div>
+            <h2 class="output-msg"></h2>
+        </main>
+    </div>
+    <div >
+        <footer>
+            <p><a href="https://github.com/ravikumar1002" class="fab fa-github icon-style" target="_blank"></a></p>
+            <p><a href="https://www.linkedin.com/in/ravikumar-1002" class="fab fa-linkedin icon-style" target="_blank"></a></p>
+            <p><a href="https://twitter.com/kumarravi1002" class="fab fa-twitter-square icon-style" target="_blank"></a></p>
+        </footer>
+    </div>
+
+
+    <script src="calculateHypotenuse.js"></script>
+</body>
+
+</html>

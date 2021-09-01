@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    text-decoration: none;
+    
+}
+
+body{
+    background-color: #e3e9ee61;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 2.5rem;
+    border-radius: 11px;
+background: #fcfcfc;
+box-shadow:  5px 5px 9px #f2f2f2,
+             -5px -5px 9px #ffffff;
+}
+
+#active-tab{
+    padding: 0.2rem 0.4rem;
+    border-bottom: 2px solid black;
+    
+}
+ 
+ .nav-item{
+     padding: 0.2rem 0.4rem;
+}
+ 
+ .nav-item:hover{
+     
+     border-bottom: 2px solid black;
+}
+
+nav{
+    display: flex;
+    gap: 2.5rem;
+}
+
+nav > p{
+    align-self: center;
+}
+
+.page-heading{
+    text-align: center;
+    margin: 2rem;
+}
+
+.page-content{
+    width: auto;
+    margin: auto;
+}
+
+.contents-items{
+    height: auto;
+    margin: auto;
+    padding: 2rem;
+    border-radius: 97px;
+background: linear-gradient(315deg, #e3e3e3, #ffffff);
+box-shadow: 4px 2px 0px #f2f2f2;
+ width: max-content;
+ margin-bottom: 7rem;
+}
+
+
+
+.input-values{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+
+.input-values > div{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.input-values > div> label{
+    margin: 1.5rem;
+    font-size: 1.6rem;
+}
+
+.input-values > div> input{
+    margin: 1.5rem;
+    font-size: 1.2rem;
+    padding-left: 0.5rem;
+}
+
+#Calculate-hypotenuse-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    margin: auto;
+    font-size: 1.2rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.formula-view{
+    text-align: center;
+    margin: 1rem;
+    padding: 0.7rem;
+}
+
+.output-msg{
+    text-align: center;
+}
+
+
+footer{
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    background-color: black;
+    width: auto;
+    padding: 1rem;
+    margin-top: 2rem;
+    border-radius: 11px;
+    background: #fcfcfc;
+    box-shadow:  -5px -5px 9px #f2f2f2,
+                 5px 5px 9px #ffffff;
+     position:sticky;
+     bottom: 0;
+}
+
+.icon-style {
+    font-size: 35px;
+    color: black;
+  }
+  
+

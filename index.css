@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    text-decoration: none;
+    
+}
+
+body{
+    background-color: #e3e9ee61
+}
+
+body > div{
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 2.5rem;
+    border-radius: 11px;
+background: #fcfcfc;
+box-shadow: 4px 2px 0px #f2f2f2;
+}
+
+#active-tab{
+    padding: 0.2rem 0.4rem;
+    border-bottom: 2px solid black;
+    
+ }
+ 
+ .nav-item{
+     padding: 0.2rem 0.4rem;
+ }
+ 
+ .nav-item:hover{
+     
+     border-bottom: 2px solid black;
+ }
+
+nav{
+    display: flex;
+    gap: 2.5rem;
+}
+
+nav > p{
+    align-self: center;
+}
+
+
+.page-heading{
+    text-align: center;
+    margin: 2rem;
+}
+
+
+.contents-items{
+    height: auto;
+    margin: auto;
+    padding: 2rem;
+    border-radius: 37px;
+background: linear-gradient(315deg, #e3e3e3, #ffffff);
+box-shadow: 4px 2px 0px #f2f2f2;
+margin-bottom: 3rem;
+
+}
+
+.input-section , .content-section {
+    display: flex;
+    justify-content: center;
+}
+
+#user-interface-section{
+    margin: 0 1rem;
+}
+
+.content-section > div{
+    display: flex;
+    flex-direction: column;
+}
+
+.content-section > div > label{
+    margin: 1.4rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.content-section > div > input{
+    margin: 1.4rem;
+    font-size: 1.35rem;
+    font-weight: 400;  
+    padding-left: 0.5rem;
+}
+
+#check-triangle-btn{
+    display: flex;
+    margin: auto;
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+    font-weight: 600;
+    cursor: pointer; 
+    border-radius: 8px;
+    background: #d7d7d7;
+   
+    border: 2px solid black;
+}
+
+#show-output{
+    text-align: center;
+    padding: 2.5rem 0.5rem ;
+    margin: auto;
+    font-size: xx-large;
+}
+
+footer{
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    background-color: black;
+    width: auto;
+    padding: 1rem;
+    margin-top: 2rem;
+    border-radius: 11px;
+    background: #fcfcfc;
+    box-shadow:  -5px -5px 9px #f2f2f2,
+                 5px 5px 9px #ffffff;
+     position: sticky;
+     bottom: 0;
+}
+
+.icon-style {
+    font-size: 35px;
+    color: black;
+  }
+  
+
