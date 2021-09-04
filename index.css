@@ -26,6 +26,7 @@ header{
     border-radius: 11px;
 background: #fcfcfc;
 box-shadow: 4px 2px 0px #f2f2f2;
+flex-wrap: wrap;
 }
 
 #active-tab{
@@ -46,6 +47,7 @@ box-shadow: 4px 2px 0px #f2f2f2;
 nav{
     display: flex;
     gap: 2.5rem;
+    flex-wrap: wrap;
 }
 
 nav > p{
@@ -70,31 +72,56 @@ margin-bottom: 3rem;
 
 }
 
-.input-section , .content-section {
+.user-interface-section{
+    margin-bottom: 1rem;
+}
+
+/* .input-section , .content-section {
     display: flex;
     justify-content: center;
-}
+} */
 
-#user-interface-section{
+/* #user-interface-section{
     margin: 0 1rem;
-}
+} */
 
-.content-section > div{
+/* .content-section > div{
     display: flex;
     flex-direction: column;
-}
+} */
 
-.content-section > div > label{
+/* .content-section > div > label{
     margin: 1.4rem;
     font-size: 1.5rem;
     font-weight: 500;
-}
+} */
 
-.content-section > div > input{
+/* .content-section > div > input{
     margin: 1.4rem;
     font-size: 1.35rem;
     font-weight: 400;  
     padding-left: 0.5rem;
+} */
+
+.content-section-part{
+    display: flex;
+    width: 100%;
+}
+
+label{
+    margin: 1.4rem;
+    font-size: 1.5rem;
+    font-weight: 500; 
+    width: 50%;  
+}
+
+
+input{
+    margin: 1.4rem;
+    font-size: 1.35rem;
+    font-weight: 400;  
+    padding-left: 0.5rem; 
+    width: 70%;  
 }
 
 #check-triangle-btn{
@@ -138,4 +165,16 @@ footer{
     color: black;
   }
   
-
+@media screen and (max-width: 500px){
+    header{
+    padding: 1.5rem;
+    }
+    nav{
+        gap: 0.5rem;
+        margin-top: 1rem;
+    }
+    .contents-items{
+        padding: 1rem;
+        margin: 0.8rem;
+    }
+}

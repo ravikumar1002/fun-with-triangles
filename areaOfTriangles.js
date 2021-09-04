@@ -14,7 +14,7 @@ function calculateAreaTriangle(a, b, c) {
 
 function checkArea() {
     let areaValue = calculateAreaTriangle(Number(triangleFirstinput.value), Number(triangleSecondInput.value), Number(triangleThirdInput.value))
-    outputMsg.style.padding ="2rem"
+    outputMsg.style.padding ="1.2rem"
     if ((+triangleFirstinput.value > 0) && (+ triangleSecondInput.value > 0) && (+ triangleThirdInput.value > 0)) {
         if (areaValue) {
             outputMsg.innerText = `Area of a triangle using heron's formula is ${areaValue.toFixed(2)} units`

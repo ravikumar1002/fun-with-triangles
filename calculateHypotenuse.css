@@ -17,10 +17,11 @@ body{
 header{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     padding: 1.5rem 2.5rem;
     border-radius: 11px;
-background: #fcfcfc;
-box-shadow:  5px 5px 9px #f2f2f2,
+    background: #fcfcfc;
+    box-shadow:  5px 5px 9px #f2f2f2,
              -5px -5px 9px #ffffff;
 }
 
@@ -42,6 +43,7 @@ box-shadow:  5px 5px 9px #f2f2f2,
 nav{
     display: flex;
     gap: 2.5rem;
+    flex-wrap: wrap;
 }
 
 nav > p{
@@ -63,37 +65,37 @@ nav > p{
     margin: auto;
     padding: 2rem;
     border-radius: 37px;
-background: linear-gradient(315deg, #e3e3e3, #ffffff);
-box-shadow: 4px 2px 0px #f2f2f2;
- width: max-content;
- margin-bottom: 7rem;
+    background: linear-gradient(315deg, #e3e3e3, #ffffff);
+    box-shadow: 4px 2px 0px #f2f2f2;
+    width: max-content;
+    margin-bottom: 7rem;
 }
 
-
-
-.input-values{
+ 
+ 
+ .input-values{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 4rem;
-}
+    flex-direction: column;
+    /* gap: 2rem; */
+} 
 
 .input-values > div{
     display: flex;
-    flex-direction: column;
-
+    align-items: center;
 }
 
-.input-values > div> label{
+.label{
     margin: 1.5rem;
     font-size: 1.6rem;
 }
 
-.input-values > div> input{
+.input{
     margin: 1.5rem;
     font-size: 1.2rem;
     padding-left: 0.5rem;
-}
+} 
 
 #Calculate-hypotenuse-btn{
     display: flex;
@@ -136,6 +138,36 @@ footer{
 .icon-style {
     font-size: 35px;
     color: black;
-  }
+}
   
 
+
+@media screen and (max-width: 565px){
+    header{
+        padding: 1.5rem 1.5rem;
+    }
+    nav{
+        gap: 0.3rem;
+        margin-top: 0.8rem;
+    }
+    .input-values > div{
+        flex-direction: column;
+    }
+
+    .contents-items{
+        padding: 1rem;
+        margin: 1rem;
+        width:auto;
+
+    }
+    .input{
+        margin-bottom: 1.5rem;
+    }
+    .label{
+        margin: 0;
+    }
+    .user-input-section{
+        margin-bottom: 1.2rem;
+    }
+
+}

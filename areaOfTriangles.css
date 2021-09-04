@@ -19,8 +19,9 @@ header{
     justify-content: space-between;
     padding: 1.5rem 2.5rem;
     border-radius: 11px;
-background: #fcfcfc;
-box-shadow: 4px 2px 0px #f2f2f2;
+    background: #fcfcfc;
+    box-shadow: 4px 2px 0px #f2f2f2;
+    flex-wrap: wrap;
 }
 
 #active-tab{
@@ -57,7 +58,6 @@ main{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    gap: 2rem;
 }
 
 .content-area{
@@ -66,7 +66,7 @@ main{
     border-radius: 37px;
     background: linear-gradient(315deg, #e3e3e3, #ffffff);
     box-shadow: 4px 2px 0px #f2f2f2;
-    margin-bottom: 6rem;
+    margin-bottom: 4.2rem;
 
 }
 
@@ -78,19 +78,29 @@ main{
 }
 
 
-#container-1 >div > label{
-    font-size: 1.5rem;
+#label{
+    font-size: 1.2rem;
     margin: 2.07rem 0;
-    display: block;
+    width: 50%;
+    font-weight: 500;
 }
 
-#container-2 >div  input{
+.container-1-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+
+}
+
+.input{
     font-size: 1.3rem;
     text-align: left;
     margin: 1rem 0rem;
     padding: 0 0.5rem;
+    width: 70%;
 
-}
+} 
 
 button{
     cursor: pointer;
@@ -116,7 +126,7 @@ footer{
     gap: 3rem;
     justify-content: center;
     background-color: black;
-    width: 95.7vw;
+    width: auto;
     padding: 1rem;
     margin-top: 2rem;
     border-radius: 11px;
@@ -130,5 +140,36 @@ footer{
 .icon-style {
     font-size: 35px;
     color: black;
+  }
+
+
+
+
+
+  @media screen and (max-width: 500px){
+   
+      nav{
+        gap: 1rem;
+        margin-top: 1.5rem;
+        flex-wrap: wrap;
+      }
+
+      .container-1-item{
+        flex-direction: column;
+        gap: 0.2rem;
+      }
+
+      #label{
+          width: auto;
+          margin: 0;
+      }
+    
+     .input{
+        width: auto;
+        margin-bottom: 2.5rem;
+     }
+     .content-area{
+         margin: 1.2rem;
+     }
   }
   
