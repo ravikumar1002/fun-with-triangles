@@ -24,7 +24,7 @@ function checkArea() {
             //  console.log(typeof triangleFirstinput.value)
         }
     } else if ((+triangleFirstinput.value < 0) || (+ triangleSecondInput.value < 0) || (+ triangleThirdInput.value < 0)) {
-        outputMsg.innerText = "The length in - "
+        outputMsg.innerText = "Value should not be in minus"
 
     } else {
         outputMsg.innerText = "Enter valid side lengths such that each side lengths"
