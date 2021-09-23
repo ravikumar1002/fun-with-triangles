@@ -12,6 +12,7 @@ a{
 
 body{
     background-color: #e3e9ee61;
+    height: 100vh;
 }
 
 header{
@@ -121,6 +122,12 @@ button{
     margin: auto;
 }
 
+.footer-div{
+    position:sticky;
+    bottom: 0;
+    top: 100%;
+}
+
 footer{
     display: flex;
     gap: 3rem;
@@ -133,8 +140,7 @@ footer{
     background: #fcfcfc;
     box-shadow:  -5px -5px 9px #f2f2f2,
                  5px 5px 9px #ffffff;
-    position:sticky;
-    bottom: 0;
+
 }
 
 .icon-style {
