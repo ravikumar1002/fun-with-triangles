@@ -54,6 +54,11 @@ nav > p{
     font-size: 3rem;
 }
 
+.sub-heading{
+    text-align: center;
+    padding-bottom: 0.3rem;
+}
+
 
 main{
     display: flex;
